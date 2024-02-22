@@ -1,0 +1,35 @@
+{
+  "name": "gen-for-me",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Alexandr Lyadov <1337@milley.uno>",
+  "homepage": "https://github.com/unmilley/gen-for-me#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unmilley/gen-for-me.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "dev:host": "nuxt dev --host",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@formkit/auto-animate": "^0.8.1",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.1.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.8.0",
+    "@vueuse/nuxt": "^10.8.0",
+    "daisyui": "^4.7.2",
+    "nuxt-icon": "^0.6.8"
+  }
+}
